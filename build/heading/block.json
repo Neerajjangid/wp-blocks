@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpn-blocks/wpn-heading",
+  "version": "0.1.0",
+  "title": "Wpn-heading",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "splitting": true,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true
+    },
+    "color": {
+      "gradients": true
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "shadow": "16px 16px var( --wp--preset--color--primary )"
+        }
+      ]
+    },
+    "align": true,
+    "position": {
+      "sticky": true,
+      "top": "0px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "textdomain": "wpn-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
