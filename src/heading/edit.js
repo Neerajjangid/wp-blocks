@@ -4,6 +4,7 @@ import { useBlockProps, RichText } from '@wordpress/block-editor';
 
 import './editor.scss';
 
+
 export default function Edit({ attributes: {content}, setAttributes }) {
     
     function editContentHandler(newVal){
@@ -16,7 +17,7 @@ export default function Edit({ attributes: {content}, setAttributes }) {
             value={content}
             onChange={editContentHandler}   
             tagName='p'
-            placeholder='place your text here.'
+            placeholder='Place your heading here.'
         />
     );
 }

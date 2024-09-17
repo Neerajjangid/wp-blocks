@@ -3,9 +3,9 @@
   "apiVersion": 3,
   "name": "wpn-blocks/wpn-heading",
   "version": "0.1.0",
-  "title": "Wpn-heading",
+  "title": "Wbcom Heading",
   "category": "widgets",
-  "icon": "smiley",
+  "icon": "heading",
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
